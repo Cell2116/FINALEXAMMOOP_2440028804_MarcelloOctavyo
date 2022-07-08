@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainMenu"
+    android:background="@drawable/bg">
+
+    <TextView
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/bg3"
+        android:text="Selamat datang di MAPS!!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Marcello Octavyo Anugrahanto"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LA75-MOOP"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold
+"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="376dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/bg3"
+        android:text="Kamu berada di..."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check on Maps"
+        android:layout_gravity="center"/>
+</LinearLayout>
